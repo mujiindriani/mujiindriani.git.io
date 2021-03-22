@@ -1,0 +1,106 @@
+.gambar{
+  width: 270px;
+  height: 200px;
+  padding-left: 20px;
+}
+.card-text{
+  text-align: center;
+}
+.card-title{
+  text-align: center;
+}
+.container{
+  margin-top: 50px;
+}
+.footer {
+ color: #343443;
+
+}
+.bg{
+  background-color: #343443;
+}
+header{
+  background-color: #F8F8FF;
+  background-image: url(images/17.jpg);
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 100px;
+}
+.navbar {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.navbar:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.text{
+  padding-top:50px;
+  padding-left: 30px;
+  text-align: center;
+}
+h1{
+  color: chocolate;
+  font-family: Impact, Charcoal, sans-serif;
+  
+}
+.nav-link a{
+  color: #0060B6;
+  text-decoration: none;
+} 
+h5{
+  font-family: " Arial, Helvetica, sans-serif";
+}
+table{
+  text-align: center;
+}
+a{
+  text-decoration-line: none;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin-right: 10PX;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #8383ad;}
+.logo{
+  height: 175px;
+  width: 175px;
+}
